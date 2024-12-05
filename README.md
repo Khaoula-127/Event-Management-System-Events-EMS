@@ -1,29 +1,7 @@
-<p align="center"><img src="https://miro.medium.com/v2/resize:fit:700/1*BQZAbczBfLYtPp-6HmN0ZQ.jpeg"></p>
+A Full Stack  Events App link with Salesforce
 
-# A Full Stack Next 14 Events App link with Salesforce
 
-## Tech Stack
 
-- Node.js
-- Next.js
-- TypeScript
-- TailwindCSS
-- Stripe
-- Zod
-- React Hook Form
-- Shadcn
-- uploadthing
-- jsfore
-
-## Usage
-
-1. Clone/Download a repo.
-2. Copy `.env.example` file to `.env` & Setup your environment variables
-3. Run `npm install`
-4. Run `npm run dev`
-5. login with google:
-
-Once everything is installed, you are ready to start.
 
 ## Salesforce + NextJs :
 
@@ -37,9 +15,9 @@ NEXTAUTH_URL_INTERNAL=http://localhost:3000
 NEXTAUTH_SECRET= 471bab59c00eb1faea89fbf8e26c33cecd38c622c427e5fd538ae641aac34e0f
 GOOGLE_ID=902029895734-78kda3f18gosbphjcpu66elptr25gsmn.apps.googleusercontent.com
 GOOGLE_CLIENT_SECRET=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
-MONGODB_URI=mongodb+srv://frixreda5:mQfk29hmmGNyJdSa@eventsapi.i8qyy5u.mongodb.net/?retryWrites=true&w=majority&appName=eventsApi
+MONGODB_URI=mongodb+srv://yourdb:mQfk29hmmGNyJdSa@eventsapi.i8qyy5u.mongodb.net/?retryWrites=true&w=majority&appName=eventsApi
 
-# MONGODB_URI=mongodb://localhost:27017/
+
 
 #UPLOADTHING
 UPLOADTHING_SECRET=sk_live_5a93d047af56c61c5c4c54e97e7544f51ad4f745403a9da342751640d529eabd
@@ -54,6 +32,6 @@ NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_51PXM2cRq6bQ2vbu2NeCMPV6NqtEsKFWcsfKT
 
 #salesforce
 SALESFORCE_LOGIN_URL =https://login.salesforce.com/
-SALESFORCE_USERNAME =khaoulatric@curious-moose-bh58ac.com
-SALESFORCE_PASSWORD =pfe2024--
-SALESFORCE_TOKEN =IWYFfWYauN1PfcqjxovRDDThN `
+SALESFORCE_USERNAME =your username
+SALESFORCE_PASSWORD =your password
+SALESFORCE_TOKEN =your token
